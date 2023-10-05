@@ -1,0 +1,124 @@
+body{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #acc95d;
+    margin: 5%;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    margin-top: 25px;
+display: flex;
+justify-content: space-around;
+
+}
+a{
+    color: #330e84;
+}
+a, li{
+    list-style: none;
+    text-decoration: none;
+}
+
+#primeiroCab{
+    font-size: 20px;
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+#segundoCab{
+    font-size: 20px;
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+#container{
+    border: 2px solid #000; 
+    width: 90%;
+    padding: 20px; 
+    background-color: rgb(81, 145, 81);
+    border-radius: 10px;
+    height: 100%;
+    margin-left:3%;
+}
+
+p{
+    box-shadow: 0px 0px 5px rgb(143, 106, 145); 
+    padding: 10px;
+    display: flex;
+    background-color: rgba(179, 243, 136, 0.7);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: fit-content;
+    font-size: auto;
+}
+
+#containerLogo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    height: 100px;
+}
+
+#passoUm{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1%;
+    text-align: justify;
+}
+
+#passoDois{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1%;
+    text-align: justify;
+}
+
+#paragrafoUm{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#paragrafoDois{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#containerPlanta{
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: rgb(76, 146, 93);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    display: flex;
+    
+}
+
+#planta{
+    height: 300px;
+    border-radius: 10px;
+}
+
+#legenda{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+}
