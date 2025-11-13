@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(to bottom, rgb(233, 224, 224), #3e8169); /*degrade no fundo da tela*/
+  min-height: 100vh;
+}
+
+.page {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+@media (max-width:500px) {
+  .page{
+    position: fixed;
+    margin-left: 10px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+  }
+  .page h1{
+    font-size: 20pt;
+
+  }
+  span {
+    font-size: 25pt;
+  }
+  nav{
+    font-size: 15pt;
+  }
+  .page p{
+    font-size: 10pt;
+    width: 300px;
+    margin-left: 25px;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+  font-family: 'Mulish', sans-serif;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #1F1534;
+  text-decoration: none;
+}
+
+ul li a {
+  opacity: 0.5;
+}
+
+ul li a:hover {
+  font-weight: 500;
+  opacity: 1;
+}
+
+h1, ul {
+  font-family: 'Mulish', sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 49px;
+  line-height: 56px;
+  color: #1F1534;
+  font-weight: 400;
+  width: 490px;
+}
+
+h1 span {
+  font-weight: 700;
+  background: linear-gradient(to top, #4d8a74, transparent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+
+section p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7D7987;
+  margin: 40px 0;
+  opacity: 0; /* Comece com opacidade zero para ocultar os elementos */
+}
+
+/* Define a animação de fade in */
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+/* Aplica a animação de fade in aos parágrafos quando a página carregar */
+section p {
+  animation: fadeIn 2s ease forwards;
+}
+
+button {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  background: #69B99D;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 32px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  /* Adiciona a sombra ao botão no estado normal */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  /* Adiciona uma transição suave de 0.3 segundos | ease - Isso define a função de temporização da transição, que suaviza a animação.*/
+  transition: background 0.6s ease;
+}
+
+button:hover {
+  background: #4ea788;
+}
+
+button:hover {
+  background: #4ea788;
+}
+
+
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 220px;
+}
+
+footer a {
+  font-weight: 700;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
